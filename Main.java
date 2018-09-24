@@ -8,6 +8,17 @@ public class Main {
         String word = kbsReader.nextLine();
 
         int wordLength = word.length();
-        int randomNumber = Math.random(1,5)
+        int randomNumber = (int) (Math.random() * 5);
+        if (randomNumber % 5 == 0) {
+
+        } else if (randomNumber % 5 == 1) {
+
+        } else if (randomNumber % 5 == 2) {
+
+        } else if (randomNumber % 5 == 3) {
+
+        } else if (randomNumber % 5 == 4) {
+
+        }
     }
 }
